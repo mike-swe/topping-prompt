@@ -14,7 +14,7 @@ def choco_store(sundae_toppings):                 #Function Definition (Choco_St
 
                print(f"{topping}($1.50)\n")
           
-     user__pref = input("Which one would you like? ") #Create an inner (nested) function to store the user preferences!!
+     user__pref = input("Which one would you like? ")
 
      if user__pref == f"{sundae_toppings[0]}":
 
