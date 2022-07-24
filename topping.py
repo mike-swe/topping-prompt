@@ -1,10 +1,10 @@
-def choco_store(sundae_toppings):                 #Function Definition (Choco_Store)!!
+def choco_store(sundae_toppings):                 #Function Definition (Choco_Store)
 
      user__name = input("Please enter your name: ") #Username
 
      print(f"\nHey {user__name.capitalize()} We have the following toppings:\n")   #Welcome text!!
 
-     for topping in sundae_toppings:              #Condition!!
+     for topping in sundae_toppings:              #condtitions
 
           if topping=="Chocolate":                
                                                   
